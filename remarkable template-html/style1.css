@@ -1,0 +1,136 @@
+.maggi {
+    display:flex;
+   
+}
+
+img.first {
+    left : 80%;
+    position : relative;
+
+}
+
+img.second {
+    left : 90%;
+    position : relative;
+
+}
+
+.maggi1 {
+    float : right;
+    margin-left: 80%;
+}
+
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+.maggi2 {
+    display : flex;
+    background-color: #ae9898;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.maggi5 {
+    display : flex;
+    background-color: #dfe3ea;
+    margin-top:2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.maggi3 {
+    width: 193px;
+height: 112px;
+
+/* Primary/Blue */
+
+background: #E3F5FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 1;
+    border-radius: 7px;
+    
+    margin: 5%;
+    width:10%;
+    height:50%;
+    
+}
+
+.maggi4 {
+    margin:5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #006379;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-top: 50px;
+  }
+  
+  .sidenav a {
+    padding: 6px 0px 12px -2px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0b0c0d;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover {
+    color: #0f0e0e;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    background-color: #f7f2f2;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.dash {
+  padding: 6px 12px; 
+    font-size: 20px;
+    
+    color: white;
+    font-family: lsans-serif;
+    
+}
+
+.safe {
+  border-radius: 10px;
+  margin:5px;
+  width: 18rem; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
